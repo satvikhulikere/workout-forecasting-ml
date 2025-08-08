@@ -7,7 +7,7 @@ from keras.models import load_model
 import os
 
 # Constants and config
-DATA_PATH = "/Users/satvikhulikere/workout-forecasting-ml/data/workout_data.csv"
+DATA_PATH = "../workout-forecasting-ml/data/workout_data.csv"
 MODEL_DIR = "/Users/satvikhulikere/workout-forecasting-ml/models"
 FEATURE_COLS = ['Reps', 'Sets', 'SleepHours', 'ProteinIntake', 'Calories', 'SorenessLevel', 'Bodyweight']
 TARGET_COL = 'WeightLifted'
