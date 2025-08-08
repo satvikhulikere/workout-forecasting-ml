@@ -8,7 +8,7 @@ import os
 
 # Constants and config
 DATA_PATH = "../workout-forecasting-ml/data/workout_data.csv"
-MODEL_DIR = "../workout-forecasting-ml/models"
+MODEL_DIR = "../workout-forecasting-ml"
 FEATURE_COLS = ['Reps', 'Sets', 'SleepHours', 'ProteinIntake', 'Calories', 'SorenessLevel', 'Bodyweight']
 TARGET_COL = 'WeightLifted'
 SEQUENCE_LENGTH = 5
